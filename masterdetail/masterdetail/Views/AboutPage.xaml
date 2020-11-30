@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterdetail.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image x:Name="profileImage"></Image>
+            <Label Text="Info minust" Font ="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Mulle meeldib spordi teha, veel meeldib arvutid mängida. Mõnikord sõidan autoga enda sõpradega. Õpin präegu TTHK koolis."
+                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
